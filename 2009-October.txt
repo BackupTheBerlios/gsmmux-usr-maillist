@@ -1,0 +1,35 @@
+From ryan.raasch at gmail.com  Tue Oct  6 11:20:30 2009
+From: ryan.raasch at gmail.com (Ryan Raasch)
+Date: Tue, 6 Oct 2009 11:20:30 +0200
+Subject: [gsmMux-usr] [PATCH 1/1] Changed compile tools to be optional if
+	environment is already set. Removed warnings for char pointers.
+Message-ID: <632f5f310910060220o7171b230w16994d3ec038d63a@mail.gmail.com>
+
+Hello,
+
+I am compiling for the arm environment, and these warnings/error
+occured when cross-compiling.
+
+Does anyone use a dbus frontend for this? Or is it just an application
+sending raw AT commands to the daemon?
+
+We need to implement these features along with others, so i wanted to
+get a feeling of what has already been done, and where i need to start
+hacking :)
+
+Thanks,
+Ryan
+
+Signed-off-by: Ryan M. Raasch <ryan.raasch at gmail.com>
+---
+ Makefile      |   12 ++++++------
+ src/gsm0710.c |   10 +++++-----
+ 2 files changed, 11 insertions(+), 11 deletions(-)
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 0017-Changed-compile-tools-to-be-optional-if-environment-.patch
+Type: text/x-patch
+Size: 2474 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/gsmmux-usr/attachments/20091006/b473164d/attachment.bin>
+

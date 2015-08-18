@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [gsmMux-usr] [PATCH 1/1] Changed compile tools to be optional if	environment is already set. Removed warnings for char pointers.
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/gsmmux-usr/2009-October/index.html" >
+   <LINK REL="made" HREF="mailto:gsmmux-usr%40lists.berlios.de?Subject=Re%3A%20%5BgsmMux-usr%5D%20%5BPATCH%201/1%5D%20Changed%20compile%20tools%20to%20be%20optional%20if%0A%09environment%20is%20already%20set.%20Removed%20warnings%20for%20char%20pointers.&In-Reply-To=%3C632f5f310910060220o7171b230w16994d3ec038d63a%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[gsmMux-usr] [PATCH 1/1] Changed compile tools to be optional if	environment is already set. Removed warnings for char pointers.</H1>
+    <B>Ryan Raasch</B> 
+    <A HREF="mailto:gsmmux-usr%40lists.berlios.de?Subject=Re%3A%20%5BgsmMux-usr%5D%20%5BPATCH%201/1%5D%20Changed%20compile%20tools%20to%20be%20optional%20if%0A%09environment%20is%20already%20set.%20Removed%20warnings%20for%20char%20pointers.&In-Reply-To=%3C632f5f310910060220o7171b230w16994d3ec038d63a%40mail.gmail.com%3E"
+       TITLE="[gsmMux-usr] [PATCH 1/1] Changed compile tools to be optional if	environment is already set. Removed warnings for char pointers.">ryan.raasch at gmail.com
+       </A><BR>
+    <I>Tue Oct  6 11:20:30 CEST 2009</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#1">[ date ]</a>
+              <a href="thread.html#1">[ thread ]</a>
+              <a href="subject.html#1">[ subject ]</a>
+              <a href="author.html#1">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hello,
+
+I am compiling for the arm environment, and these warnings/error
+occured when cross-compiling.
+
+Does anyone use a dbus frontend for this? Or is it just an application
+sending raw AT commands to the daemon?
+
+We need to implement these features along with others, so i wanted to
+get a feeling of what has already been done, and where i need to start
+hacking :)
+
+Thanks,
+Ryan
+
+Signed-off-by: Ryan M. Raasch &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/gsmmux-usr">ryan.raasch at gmail.com</A>&gt;
+---
+ Makefile      |   12 ++++++------
+ src/gsm0710.c |   10 +++++-----
+ 2 files changed, 11 insertions(+), 11 deletions(-)
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 0017-Changed-compile-tools-to-be-optional-if-environment-.patch
+Type: text/x-patch
+Size: 2474 bytes
+Desc: not available
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/gsmmux-usr/attachments/20091006/b473164d/attachment.bin">https://lists.berlios.de/pipermail/gsmmux-usr/attachments/20091006/b473164d/attachment.bin</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#1">[ date ]</a>
+              <a href="thread.html#1">[ thread ]</a>
+              <a href="subject.html#1">[ subject ]</a>
+              <a href="author.html#1">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/gsmmux-usr">More information about the gsmMux-usr
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,25 @@
+From slumpnamn at gmail.com  Thu Jul 28 14:49:34 2005
+From: slumpnamn at gmail.com (Tur-Arne Luck)
+Date: Thu, 28 Jul 2005 14:49:34 +0200
+Subject: [gsmMux-usr] Testing with SonyEricsson GC85 card
+Message-ID: <f0e2b92405072805491d98db9@mail.gmail.com>
+
+ Hi,
+
+I have been trying to run the mux with a SonyEricsson GC85 card on a
+laptop with Fedora Core 1, but sofar it does not work.
+
+Actually when starting the daemon everything seems fine. According to
+the syslog all devices are started and no errors can be found.
+
+However when I try to communicate through the ports I fail. I have
+tried with minicom and with pppd but all I get is:
+"Failed to open 'device' Input/output error"
+
+How have the mux been tested previously?
+Do you have any suggestion on how I should communicate with the mux?
+
+(I can communicate with the card using both minicom and pppd when the
+mux is turned off.)
+
+
